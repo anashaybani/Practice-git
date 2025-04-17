@@ -62,6 +62,7 @@ int main() {
 
     int maxVal = 0;
     cout << "Maximom value is : " << fINDmAX(&rows, triangle) << endl;
+    cout << "This is a conflict test from main branch!" << endl
 
     for (int i = 0; i < rows; i++) {
         delete[] triangle[i];
