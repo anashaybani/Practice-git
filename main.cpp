@@ -2,6 +2,11 @@
 using namespace std;
 
 
+void printStudentID(){
+    int ID = 403613049;
+    cout << "Student ID: " <<ID << endl;
+}
+
 void printo() {
     cout << "Hello, World!" << endl;
 }
@@ -9,6 +14,7 @@ void printo() {
 int main()
 {
     printo();
+    printStudentID();
 
     return 0;
 }
